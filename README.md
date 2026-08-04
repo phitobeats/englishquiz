@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/30682898/README.md)
+
 # UVIE — Offline CBT Practice App for GST122 (Communication in English II)
 
 UVIE is a fully offline, browser-based Computer-Based Test (CBT) practice
