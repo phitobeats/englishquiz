@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>UVIE — GST122 CBT Practice</title>
+<meta name="description" content="Offline Computer-Based Test practice app for GST122: Communication in English II.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+
+  <nav class="topnav">
+    <div class="brand">
+      <span class="logo-dot"></span>
+      <span class="title">UVIE</span>
+      <small>GST122 CBT</small>
+    </div>
+    <div class="nav-links">
+      <button class="nav-link" data-view="home">Home</button>
+      <button class="nav-link" data-view="bookmarks">Bookmarks</button>
+      <button class="nav-link" data-view="analytics">Analytics</button>
+      <button class="nav-link" data-view="settings">Settings</button>
+    </div>
+  </nav>
+
+  <main id="view"></main>
+
+  <footer>UVIE · Offline CBT Practice · All data stays on this device</footer>
+</div>
+
+<div id="toast"></div>
+
+<script src="questions.js"></script>
+<script src="storage.js"></script>
+<script src="analytics.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
